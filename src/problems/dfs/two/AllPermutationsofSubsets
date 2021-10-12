@@ -1,0 +1,6 @@
+Given a string with no duplicate characters, return a list with all permutations of the string and all its subsets.
+
+Examples
+Set = “abc”, all permutations are [“”, “a”, “ab”, “abc”, “ac”, “acb”, “b”, “ba”, “bac”, “bc”, “bca”, “c”, “cb”, “cba”, “ca”, “cab”].
+Set = “”, all permutations are [“”].
+Set = null, all permutations are [].
