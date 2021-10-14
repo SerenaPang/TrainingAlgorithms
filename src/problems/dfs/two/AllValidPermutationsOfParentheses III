@@ -1,4 +1,5 @@
-Get all valid permutations of l pairs of (), m pairs of <> and n pairs of {}, subject to the priority restriction: {} higher than <> higher than ().
+Get all valid permutations of l pairs of (), m pairs of <> and n pairs of {},
+subject to the priority restriction: {} higher than <> higher than ().
 
 Assumptions
     l, m, n >= 0
