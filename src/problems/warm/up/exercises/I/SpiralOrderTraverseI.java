@@ -40,6 +40,7 @@ public class SpiralOrderTraverseI {
             result.add(matrix[offset + size - 1][offset + i]);
         }
         //left col
+        //terminate when equals to 1 since we don't include the leftmost number
         for (int i = size - 1; i >= 1; i--) {
             System.out.print(matrix[offset + i][offset] + " ");
             result.add(matrix[offset + i][offset]);
