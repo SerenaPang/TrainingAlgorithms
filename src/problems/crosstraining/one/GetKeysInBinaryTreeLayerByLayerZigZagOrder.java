@@ -33,7 +33,7 @@ public class GetKeysInBinaryTreeLayerByLayerZigZagOrder {
                 for (int i = 0; i < numberOfNodesInOneLayer; i++) {
                     if (level % 2 == 0) {//at even layer, poll from right to left, but
                         // to prepared the next level print from right to left
-                        TreeNode cur = buffer.pollLast();
+                        TreeNode cur = buffer.pollLast();//poll is the order of printing
                         result.add(cur.key);
                         if (cur.right != null) {
                             buffer.offerFirst(cur.right);
