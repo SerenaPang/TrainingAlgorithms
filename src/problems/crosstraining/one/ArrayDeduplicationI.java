@@ -1,7 +1,5 @@
 package problems.crosstraining.one;
 
-import problems.warm.up.exercises.I.RemoveAdjacentRepeatedCharacters;
-
 public class ArrayDeduplicationI {
     public String deDup(String s) {
         if (s == null || s.length() == 0) {
