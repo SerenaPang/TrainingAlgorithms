@@ -49,7 +49,5 @@ public class LowestCommonAncestorBinarySearchTreeI {
         TreeNode result = lwa.lca(a, firstNode, secondNode);
         System.out.println("The lowest common ancester of " + firstNode +
                 " and " + secondNode + " is " + result.key);
-
-
     }
 }
