@@ -20,6 +20,10 @@ public class ClosestNumberInBinarySearchTreeII {
     /**
      * This function finds the largest number smaller than the target
      * */
+    public int largestSmallerThanTarget(int[] array, int target) {
+
+        return 0;
+    }
 
     /**
      * This function converts the list of nodes to an array of integer so it's easier to apply binary search
@@ -46,6 +50,33 @@ public class ClosestNumberInBinarySearchTreeII {
         InOrderTraversal(root.left, result);
         result.add(root.key);
         InOrderTraversal(root.right, result);
+    }
+
+    /**
+     * This function prints an array
+     * */
+    public void print(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+    }
+
+    public static void main(String[] args) {
+        TreeNode a = new TreeNode(5);
+        TreeNode b = new TreeNode(2);
+        TreeNode c = new TreeNode(11);
+        TreeNode d = new TreeNode(6);
+        TreeNode e = new TreeNode(14);
+
+        a.left = b;
+        a.right = c;
+        c.left = d;
+        c.right = e;
+
+        ClosestNumberInBinarySearchTreeII cb = new ClosestNumberInBinarySearchTreeII();
+        cb.print(cb.serializedTree(a));
+
+
     }
 
 }
