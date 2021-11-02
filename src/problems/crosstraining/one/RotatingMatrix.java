@@ -14,7 +14,7 @@ package problems.crosstraining.one;
  *   X10 X11 X12 X12 X14
  *   X20 X21 X22 X22 X24
  *   X30 X31 X32 X32 X34
- *   X40 X41 X42 X42 X44
+ *   X40 X41 X42 X43 X44
  *
  * if we rotate this matrix we have:
  *
@@ -64,7 +64,6 @@ package problems.crosstraining.one;
  *       21
  *
  * Once we have generated this sequence, we can implement the interchanging of the elements.
-
  *
  */
 
