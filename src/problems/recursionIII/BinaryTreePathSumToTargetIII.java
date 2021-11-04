@@ -25,7 +25,7 @@ public class BinaryTreePathSumToTargetIII {
      * @param targetSum is the target sum
      * */
     private boolean helper(TreeNode root, List<TreeNode> path, int targetSum) {
-        //print(path);
+        //here we are adding the nodes to the path and see if we are able to get the target sum
         path.add(root);
         //check if we can find a subpath sum to the target ended at the root
         int sum = 0;
@@ -36,6 +36,7 @@ public class BinaryTreePathSumToTargetIII {
                 return true;
             }
         }
+        //if in the left there is a path sum to target, return true
         if (root.left != null && helper(root.left, path, sum)) {
             return true;
         }
@@ -43,7 +44,7 @@ public class BinaryTreePathSumToTargetIII {
         if (root.right != null && helper(root.right, path, sum)) {
             return true;
         }
-        //clean up when return to th previous level
+        //clean up when return to the previous level
         path.remove(path.size() - 1);
         return false;
     }

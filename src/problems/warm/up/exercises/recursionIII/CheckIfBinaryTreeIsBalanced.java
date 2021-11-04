@@ -15,7 +15,8 @@ public class CheckIfBinaryTreeIsBalanced {
         if (Math.abs(left - right) > 1) {
             return false;
         }
-        //
+        //This call the function itself again to pass in the left of the subtree as root
+        //and the right subtree as root so that they can check there subtrees as well
        return isBalanced(root.left) && isBalanced(root.right);
     }
 
