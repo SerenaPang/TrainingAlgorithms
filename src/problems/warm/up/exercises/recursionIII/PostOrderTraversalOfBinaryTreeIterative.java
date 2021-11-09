@@ -1,12 +1,12 @@
 package problems.warm.up.exercises.recursionIII;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.List;
+import com.sun.source.tree.Tree;
+
+import java.util.*;
 
 public class PostOrderTraversalOfBinaryTreeIterative {
     /**
+     * Check the relation between the current node and the previous node to determine which direction shoud go next
      * TC: O(n)
      * SC: O(height)
      * */
@@ -44,12 +44,40 @@ public class PostOrderTraversalOfBinaryTreeIterative {
             }
             //if pre is not the parent node, cur is parent node, and pre is the sub node.
             //we are coming from the left side and we are going down to the right side
+            //so we just push the node to the stack
             else {
-                stack.pollFirst(currentRoot.right);
+                stack.offerFirst(currentRoot.right);
             }
             //remember that every iteration is done, record the current node as previous node
             previousNode = currentRoot;
         }
+        return result;
+    }
+
+    /**
+     * Another way of implement iterative post order traversal is
+     * the reverse order of pre order with traversing right subtree before traversing left subtree
+     * */
+    public List<Integer> postOrderIteratively(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+        Deque<TreeNode> preOreder = new LinkedList<>();
+        preOreder.offerFirst(root);
+        while (!preOreder.isEmpty()) {
+            TreeNode current = preOreder.pollFirst();
+            result.add(current.key);
+            //in pre order that the right subtree will be traversed before the left subtree so pushing left child first
+            if (current.left != null) {
+                preOreder.offerFirst(current.left);
+            }
+            if (current.right != null) {
+                preOreder.offerFirst(current.right);
+            }
+        }
+        //reverse the pre-order traversal sequence to get the post order result
+        Collections.reverse(result);
         return result;
     }
 
