@@ -1,9 +1,6 @@
 package problems.crosstraining.two;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class TwoSumAllPairI {
     public List<List<Integer>> allPairs(int[] array, int target) {
@@ -34,17 +31,37 @@ public class TwoSumAllPairI {
         List<List<Integer>> result = new ArrayList<>();
         //key: element in array value: all possible indexes
         Map<Integer, List<Integer>> map = new HashMap<>();
+        for (int i = 0; i < array.length; i++) {
+            //get all the indexes sum to target with current number
 
+            List<Integer> indexes = map.get(target - array[i]);
+            if (indexes != null) {//if there are indexes sum to target with curretn number
+                //add all of them as pairs
+                for (int j = 0; j < indexes.size(); j++) {
+                    result.add(Arrays.asList(indexes.get(j), i));
+                }
+            }
+            //add current index i to all the possible indices for value of array[i]
+            if (!map.containsKey(array[i])) {
+                map.put(array[i], new ArrayList<Integer>());
+            }
+            map.get(array[i]).add(i);
+            printList( map.get(array[i]));
+        }
+        return result;
     }
 
+    public void printList(List<Integer> list) {
+        System.out.println("Printing List: ");
+        for (int i = 0 ; i < list.size(); i++) {
+            System.out.print(list.get(i) + " ");
+        }
+        System.out.println("Done");
+    }
 
     public void print(List<List<Integer>> result) {
         for (List aList : result) {
             System.out.println(aList);
-//            for (int i = 0; i < result.size(); i++) {
-//                System.out.print(result.get(i) + " ");
-//            }
-            System.out.println();
         }
     }
 
@@ -53,7 +70,8 @@ public class TwoSumAllPairI {
         int target = 5;
 
         TwoSumAllPairI t = new TwoSumAllPairI();
-        List<List<Integer>> result = t.allPairs(num, target);
+       // List<List<Integer>> result = t.allPairs(num, target);
+        List<List<Integer>> result = t.allPairsII(num, target);
         t.print(result);
     }
 }
