@@ -7,6 +7,7 @@ public class RemoveAdjacentRepeatedCharactersIV {
      *
      * two pointers scan from left to right
      * using the index position of first pointer as the top of the stack
+     * replace the character if it's not duplicate
      * */
     public String deDup(String input) {
       char[] array = input.toCharArray();
