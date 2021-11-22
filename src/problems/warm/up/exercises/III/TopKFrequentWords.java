@@ -24,6 +24,23 @@ public class TopKFrequentWords {
                 return o1.getValue().compareTo(o2.getValue());
             }
         });
+        //select the most frequent k words
+        for (Map.Entry<String, Integer> entry : occuranceMap.entrySet()) {
+            if (minHeap.size() < k) {
+                minHeap.offer(entry);
+            } else {
+                if (minHeap.peek().getValue() < entry.getValue()) {
+                    minHeap.poll();
+                    minHeap.offer(entry);
+                }
+            }
+        }
+
+        //convert result to a sorted array by frequency
+        //>= since when we are in 0, we need to populate the value as well
+        for (int j = minHeap.size() - 1; j >= 0; j--) {
+            result[j] = minHeap.poll().getKey();
+        }
 
         return result;
     }
