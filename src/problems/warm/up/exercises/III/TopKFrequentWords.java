@@ -7,6 +7,15 @@ import java.util.PriorityQueue;
 
 public class TopKFrequentWords {
     /**
+     * TC: O(n + nlogk)
+     * - put into hasmap: O(N)
+     * - minHeap:
+     * - offer: O(log1 + log2 + log3 +... + logk) = O(klogk)
+     * - size > k pop time = O(n-k)logk
+     * - so, time = O(klogk) + O(n-k)logk = O(nlogk)
+     * - pop result from heap time = O(klogk)
+     *
+     * SC: O(n)
      * create a priority queue of size k (min heap) since we want the most frequent
      * create a map with element as key and number of occurrences of the element as value
      * min heap will compare the occurrences of the elements
