@@ -1,7 +1,9 @@
 package problems.warm.up.exercises.III;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.PriorityQueue;
 
 public class TopKFrequentWords {
     /**
@@ -15,6 +17,13 @@ public class TopKFrequentWords {
         Map<String, Integer> occuranceMap = new HashMap<>();
         buildMap(combo, occuranceMap);
        // System.out.println(occuranceMap.entrySet());
+        PriorityQueue<Map.Entry<String, Integer>> minHeap = new PriorityQueue<>(k, new Comparator<Map.Entry<String, Integer>>() {
+            @Override
+            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+                //since the frequencies are represented by Ineger, we can use compareTo
+                return o1.getValue().compareTo(o2.getValue());
+            }
+        });
 
         return result;
     }
