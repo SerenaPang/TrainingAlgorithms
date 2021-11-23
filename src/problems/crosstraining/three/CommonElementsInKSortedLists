@@ -1,0 +1,10 @@
+Find all common elements in K sorted lists.
+
+
+Assumptions
+The input and its elements are not null, and support fast random access.
+There could be duplicate elements in each of the lists.
+
+
+Examples
+Input = {{1, 2, 2, 3}, {2, 2, 3, 5}, {2, 2, 4}}, the common elements are {2, 2}.
