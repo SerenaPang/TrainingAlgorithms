@@ -52,7 +52,7 @@ public class CommonElementsInThreeSortedArray {
         common.printArr(b);
         common.printArr(c);
         List<Integer> result = common.common(a,b,c);
-        System.out.println("The common elements in these 3 arrays are: ");
+        System.out.println("The common elements in these 3 lists are: ");
         common.print(result);
     }
 }
