@@ -7,6 +7,8 @@ import java.util.PriorityQueue;
 public class MaxWaterTrappedII {
 
     /**
+     * TC: O(mnlog(m+n))
+     * SC: O(mn)
      * Use Best First Search
      * min heap maintains all the border cells of the "closed area", which are the higher value numbers
      * we always fins the number with lowest value to see if any of its neighbors can trap any water
@@ -25,9 +27,19 @@ public class MaxWaterTrappedII {
         while (!minHeap.isEmpty()) {
             Element cur = minHeap.poll();
             //get all possible neighbor cells
-
+            List<Element> neighborCells = getAllNeighbors(cur, matrix, visited);
+            for (Element neighbor : neighborCells) {
+                //ignore any visited neighbor cells
+                if (visited[neighbor.rowIndex][neighbor.colIndex]) {
+                    continue;
+                }
+                 // mark neigbor cell as visited, and put it to min heap
+                visited[neighbor.rowIndex][neighbor.colIndex] = true;
+                //how much water can be trapped at the neighbor cell controlled by the current height and neigbors height
+                result = result + Math.max(cur.heightValue - neighbor.heightValue, 0);
+                minHeap.offer(neighbor);
+            }
         }
-
         return result;
     }
 
