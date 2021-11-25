@@ -21,6 +21,8 @@ public class MaxWaterTrappedII {
         //put all the border cells of the matrix at the beginning
         int result = 0;
         while (!minHeap.isEmpty()) {
+            Element cur = minHeap.poll();
+
 
         }
 
@@ -32,10 +34,26 @@ public class MaxWaterTrappedII {
      * these are the start oints of the whole BFS process
      * */
     public void processBorder(int[][] matrix, boolean[][] visited, PriorityQueue<Element> minHeap, int rowLen, int colLen) {
+        //process the upper row and the bottom row
         for (int col = 0; col < colLen; col++) {
-            //put the whole row into min heap
+            //put the whole upper row into min heap
             minHeap.offer(new Element(0, col, matrix[0][col]));
-
+            //put the whole bottom row in min heap
+            minHeap.offer(new Element(rowLen - 1, col, matrix[rowLen - 1][col]));
+            //mark all the visted element
+            visited[0][col] = true;
+            visited[rowLen - 1][col] = true;
+        }
+        //process the leftmost column and the rightmost column
+        //since we already put the first element when putting upper row, we start with the second row's first element
+        //since we already put the first element when putting bottom row, we end the loop in the last second element
+        for (int row = 1; row < rowLen - 1; row++) {
+            //put left column to minheap
+            minHeap.offer(new Element(row, 0, matrix[row][0]));
+            //put right column to min heap
+            minHeap.offer(new Element(row, colLen - 1, matrix[row][colLen - 1]));
+            visited[row][0] = true;
+            visited[row][rowLen - 1] = true;
         }
     }
 
