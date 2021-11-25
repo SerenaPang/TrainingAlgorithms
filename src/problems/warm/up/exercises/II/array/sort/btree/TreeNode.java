@@ -1,4 +1,4 @@
-package problems.warm.up.exercises.II;
+package problems.warm.up.exercises.II.array.sort.btree;
 
 public class TreeNode {
     public int key;

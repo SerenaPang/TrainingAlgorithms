@@ -1,4 +1,4 @@
-package problems.warm.up.exercises.I;
+package problems.warm.up.exercises.I.array.btree;
 
 public class LowestCommonAncestor {
     public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode one, TreeNode two) {

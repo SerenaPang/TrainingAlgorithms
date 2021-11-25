@@ -1,4 +1,4 @@
-package problems.warm.up.exercises.III;
+package problems.warm.up.exercises.III.array.hashtable;
 
 public class ListNode {
     public int value;

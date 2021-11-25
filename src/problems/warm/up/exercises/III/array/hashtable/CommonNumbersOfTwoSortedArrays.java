@@ -1,4 +1,4 @@
-package problems.warm.up.exercises.III;
+package problems.warm.up.exercises.III.array.hashtable;
 
 import java.util.ArrayList;
 import java.util.List;

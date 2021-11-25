@@ -1,4 +1,4 @@
-package problems.warm.up.exercises.I;
+package problems.warm.up.exercises.I.array.btree;
 
 import java.util.ArrayList;
 import java.util.List;

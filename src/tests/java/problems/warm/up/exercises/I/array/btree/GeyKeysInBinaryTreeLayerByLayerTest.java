@@ -1,11 +1,9 @@
-package problems.warm.up.exercises.I;
+package problems.warm.up.exercises.I.array.btree;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class GeyKeysInBinaryTreeLayerByLayerTest {
     @Test

@@ -1,4 +1,4 @@
-package problems.warm.up.exercises.III;
+package problems.warm.up.exercises.III.array.hashtable;
 
 public class MergeTwoSortedLinkedList {
     //TC: O(m + n) SC:O(1)
