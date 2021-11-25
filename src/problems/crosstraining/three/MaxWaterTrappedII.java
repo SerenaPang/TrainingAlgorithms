@@ -1,5 +1,7 @@
 package problems.crosstraining.three;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.PriorityQueue;
 
 public class MaxWaterTrappedII {
@@ -22,7 +24,7 @@ public class MaxWaterTrappedII {
         int result = 0;
         while (!minHeap.isEmpty()) {
             Element cur = minHeap.poll();
-
+            //get all possible neighbor cells
 
         }
 
@@ -62,23 +64,47 @@ public class MaxWaterTrappedII {
      * original matrix
      * */
     public static class Element implements Comparable<Element> {
-        int r;
-        int c;
-        int height;
+        int rowIndex;
+        int colIndex;
+        int heightValue;
 
         Element(int row, int col, int height) {
-            this.r = row;
-            this.c = col;
-            this.height = height;
+            this.rowIndex = row;
+            this.colIndex = col;
+            this.heightValue = height;
         }
 
         @Override
         public int compareTo(Element another) {
-            if (this.height == another.height) {
+            if (this.heightValue == another.heightValue) {
                 return 0;
             }
-            return this.height < another.height ? -1 : 1;
+            return this.heightValue < another.heightValue ? -1 : 1;
         }
+    }
+
+    /**
+     * get all the neighboring cells of the element
+     * */
+    public List<Element> getAllNeighbors(Element cur, int[][] matrix, boolean[][] visited) {
+        List<Element> neighberCells = new ArrayList<>();
+        //add the element below the current element
+        if (cur.rowIndex + 1 < matrix.length) {
+            neighberCells.add(new Element(cur.rowIndex + 1, cur.colIndex, matrix[cur.rowIndex + 1][cur.colIndex]));
+        }
+        //add the element above the current element
+        if (cur.rowIndex - 1 >= 0) {
+            neighberCells.add(new Element(cur.rowIndex - 1, cur.colIndex, matrix[cur.rowIndex - 1][cur.colIndex]));
+        }
+        //add the element on the right side
+        if (cur.colIndex + 1 < matrix[0].length) {
+            neighberCells.add(new Element(cur.rowIndex, cur.colIndex + 1, matrix[cur.rowIndex][cur.colIndex + 1]));
+        }
+        //add the element on the left side
+        if (cur.rowIndex - 1 >= 0) {
+            neighberCells.add(new Element(cur.rowIndex, cur.colIndex - 1, matrix[cur.rowIndex][cur.colIndex - 1]));
+        }
+        return neighberCells;
     }
 
     public static void main(String[] args) {
@@ -92,5 +118,4 @@ public class MaxWaterTrappedII {
         int result = m.maxTrapped(matrix);
         System.out.println("The maximum water trapped in the array is: " + result);
     }
-
 }
