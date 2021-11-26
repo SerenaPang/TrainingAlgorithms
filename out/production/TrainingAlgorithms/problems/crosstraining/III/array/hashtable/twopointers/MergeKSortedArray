@@ -1,0 +1,5 @@
+Merge K sorted array into one big sorted array in ascending order.
+
+Assumptions
+
+The input arrayOfArrays is not null, none of the arrays is null either.
