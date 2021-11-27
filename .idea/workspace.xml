@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="updates">
-      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/RemoveLinkedListElements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/RemoveLinkedListElements.java" afterDir="false" />
+    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="warm up for cross-training 4">
+      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/MissingNumberI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/MissingNumberI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/IV/array/string/partition/RemoveLinkedListElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/IV/array/string/partition/RemoveLinkedListElements.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveLinkedListElements">
+  <component name="RunManager" selected="Application.MissingNumberI">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -129,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.crosstraining.three.MergeKSortedArray" />
+    <configuration name="MissingNumberI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.warm.up.exercises.IV.array.string.partition.MissingNumberI" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.crosstraining.three.*" />
+          <option name="PATTERN" value="problems.warm.up.exercises.IV.array.string.partition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumberI" />
         <item itemvalue="Application.RemoveLinkedListElements" />
         <item itemvalue="Application.KSmallestInUnsortedArray" />
         <item itemvalue="Application.ClassicalBinarySearch" />
         <item itemvalue="Application.MaxWaterTrappedI" />
-        <item itemvalue="Application.MergeKSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -188,21 +188,7 @@
       <workItem from="1637088330749" duration="20764000" />
       <workItem from="1637199197812" duration="22245000" />
       <workItem from="1637624123693" duration="34190000" />
-      <workItem from="1637963060832" duration="6452000" />
-    </task>
-    <task id="LOCAL-00007" summary="Oct 29 Updates cross training 1">
-      <created>1635527254133</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1635527254133</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Nov 1st Updates cross training 1 and 2">
-      <created>1635824796741</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1635824796741</updated>
+      <workItem from="1637963060832" duration="7427000" />
     </task>
     <task id="LOCAL-00009" summary="Nov 1st Updates cross training 1">
       <created>1635827332067</created>
@@ -533,7 +519,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637966879782</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="updates">
+      <created>1637983921733</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1637983921733</updated>
+    </task>
+    <task id="LOCAL-00057" summary="warm up for cross-training 4">
+      <created>1637983959068</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1637983959068</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Oct 28 Updates cross training 1" />
     <MESSAGE value="Oct 29 Updates cross training 1" />
     <MESSAGE value="Nov 1st Updates cross training 1 and 2" />
     <MESSAGE value="Nov 1st Updates cross training 1" />
@@ -577,7 +576,8 @@
     <MESSAGE value="Happy Thanksgiving! Changed package name" />
     <MESSAGE value="warme up for Cross Training 4" />
     <MESSAGE value="updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates" />
+    <MESSAGE value="warm up for cross-training 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="warm up for cross-training 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
