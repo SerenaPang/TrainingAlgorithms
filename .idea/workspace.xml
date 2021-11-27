@@ -1,57 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="warme up for Cross Training 4">
-      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/KSmallestInUnsortedArray" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/KSmallestInUnsortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ LowestCommonAncestorIV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ArrayDeduplicationI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ArrayDeduplicationI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ArrayDeduplicationII" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ArrayDeduplicationII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ArrayDeduplicationIII" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ArrayDeduplicationIII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ArrayDeduplicationIV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ArrayDeduplicationIV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ClosestNumberInBinarySearchTreeII" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/ClosestNumberInBinarySearchTreeII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/GetKeysInBinaryTreeLayerByLayerZigZagOrder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/GetKeysInBinaryTreeLayerByLayerZigZagOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/KnaryTreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/LowestCommonAncestorBinarySearchTreeI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/LowestCommonAncestorBinarySearchTreeI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/LowestCommonAncestorII" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/LowestCommonAncestorII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/LowestCommonAncestorIV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/LowestCommonAncestorV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/LowestCommonAncestorV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/LowestCommonAncestorVI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/LowestCommonAncestorVI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/RotateMatrix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/RotateMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/RotatingMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/TreeNodeP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/GeyKeysInBinaryTreeLayerByLayer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/GeyKeysInBinaryTreeLayerByLayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/LowestCommonAncestor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/LowestCommonAncestor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/Move0sToTheEndI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/Move0sToTheEndI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/RemoveAdjacentRepeatedCharacters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/RemoveAdjacentRepeatedCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/SpiralOrderTraverseI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/SpiralOrderTraverseI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/III/CommonNumbersOfTwoSortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/III/LongestConsecutive1s.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/III/MergeTwoSortedLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/III/RemoveAdjacentRepeatedCharactersIV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/III/TopKFrequentWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TrainingAlgorithms/problems/crosstraining/one/GetKeysInBinaryTreeLayerByLayerZigZagOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TrainingAlgorithms/problems/warm/up/exercises/I/GeyKeysInBinaryTreeLayerByLayerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TrainingAlgorithms/problems/warm/up/exercises/I/Move0sToTheEndITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TrainingAlgorithms/problems/warm/up/exercises/I/SpiralOrderTraverseITest.class" beforeDir="false" />
+    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="updates">
+      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/RemoveLinkedListElements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/RemoveLinkedListElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +76,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KSmallestInUnsortedArray">
+  <component name="RunManager" selected="Application.RemoveLinkedListElements">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -188,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.crosstraining.three.MergeTwoSortedArray" />
+    <configuration name="RemoveLinkedListElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.warm.up.exercises.IV.array.string.partition.RemoveLinkedListElements" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.crosstraining.three.*" />
+          <option name="PATTERN" value="problems.warm.up.exercises.IV.array.string.partition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveLinkedListElements" />
         <item itemvalue="Application.KSmallestInUnsortedArray" />
         <item itemvalue="Application.ClassicalBinarySearch" />
         <item itemvalue="Application.MaxWaterTrappedI" />
         <item itemvalue="Application.MergeKSortedArray" />
-        <item itemvalue="Application.MergeTwoSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -234,21 +188,7 @@
       <workItem from="1637088330749" duration="20764000" />
       <workItem from="1637199197812" duration="22245000" />
       <workItem from="1637624123693" duration="34190000" />
-      <workItem from="1637963060832" duration="2942000" />
-    </task>
-    <task id="LOCAL-00005" summary="Oct 26 Updates cross training 1">
-      <created>1635266722289</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1635266722289</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Oct 28 Updates cross training 1">
-      <created>1635451872633</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1635451872633</updated>
+      <workItem from="1637963060832" duration="6452000" />
     </task>
     <task id="LOCAL-00007" summary="Oct 29 Updates cross training 1">
       <created>1635527254133</created>
@@ -579,7 +519,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637965222569</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="warme up for Cross Training 4">
+      <created>1637966856627</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1637966856627</updated>
+    </task>
+    <task id="LOCAL-00055" summary="updates">
+      <created>1637966879782</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1637966879782</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Oct 26 Updates cross training 1" />
     <MESSAGE value="Oct 28 Updates cross training 1" />
     <MESSAGE value="Oct 29 Updates cross training 1" />
     <MESSAGE value="Nov 1st Updates cross training 1 and 2" />
@@ -623,7 +576,8 @@
     <MESSAGE value="Nov 25th cross training 3" />
     <MESSAGE value="Happy Thanksgiving! Changed package name" />
     <MESSAGE value="warme up for Cross Training 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="warme up for Cross Training 4" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
