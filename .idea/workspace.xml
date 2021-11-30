@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="warm up for cross-training 4">
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/ImplementLRUCache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/ImplementLRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberII" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberIII" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MaximumValuesOfSizeKSlidingWindows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MaximumValuesOfSizeKSlidingWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/AllAnagrams" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/AllAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/StringMatching.java" afterDir="false" />
+    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="cross-training 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/ImplementLRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/ImplementLRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MaximumValuesOfSizeKSlidingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MaximumValuesOfSizeKSlidingWindows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +187,7 @@
       <workItem from="1637088330749" duration="20764000" />
       <workItem from="1637199197812" duration="22245000" />
       <workItem from="1637624123693" duration="34190000" />
-      <workItem from="1637963060832" duration="21422000" />
-    </task>
-    <task id="LOCAL-00010" summary="Nov 1st Updates cross training 1">
-      <created>1635827681973</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1635827681973</updated>
+      <workItem from="1637963060832" duration="27650000" />
     </task>
     <task id="LOCAL-00011" summary="Nov 1st Updates cross training 1">
       <created>1635872683569</created>
@@ -543,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637984854585</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="cross-training 4">
+      <created>1638241321362</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1638241321362</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +551,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Oct 29 Updates cross training 1" />
     <MESSAGE value="Nov 1st Updates cross training 1 and 2" />
     <MESSAGE value="Nov 1st Updates cross training 1" />
     <MESSAGE value="Nov 1st Updates recursion" />
@@ -587,7 +575,8 @@
     <MESSAGE value="warme up for Cross Training 4" />
     <MESSAGE value="updates" />
     <MESSAGE value="warm up for cross-training 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="warm up for cross-training 4" />
+    <MESSAGE value="cross-training 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="cross-training 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
