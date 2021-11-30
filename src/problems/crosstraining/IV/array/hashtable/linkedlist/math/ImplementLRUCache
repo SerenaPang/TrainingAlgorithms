@@ -1,0 +1,3 @@
+Implement a least recently used cache.
+It should provide set(), get() operations.
+If not exists, return null (Java), false (C++), -1(Python).
