@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="cross-training 4">
+      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/FirstNonRepeatingCharacterInStream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/FirstNonRepeatingCharacterInStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/KthSmallestInTwoSortedArrays" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/KthSmallestInTwoSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/ImplementLRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/ImplementLRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MaximumValuesOfSizeKSlidingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MaximumValuesOfSizeKSlidingWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +78,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AllAnagrams">
+  <component name="RunManager" selected="Application.MajorityNumberI">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -102,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KSmallestInUnsortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.warm.up.exercises.IV.array.string.partition.KSmallestInUnsortedArray" />
+    <configuration name="MajorityNumberI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.crosstraining.IV.array.hashtable.linkedlist.math.MajorityNumberI" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.warm.up.exercises.IV.array.string.partition.*" />
+          <option name="PATTERN" value="problems.crosstraining.IV.array.hashtable.linkedlist.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MajorityNumberI" />
         <item itemvalue="Application.AllAnagrams" />
         <item itemvalue="Application.StringMatching" />
         <item itemvalue="Application.MissingNumberI" />
         <item itemvalue="Application.RemoveLinkedListElements" />
-        <item itemvalue="Application.KSmallestInUnsortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +190,7 @@
       <workItem from="1637088330749" duration="20764000" />
       <workItem from="1637199197812" duration="22245000" />
       <workItem from="1637624123693" duration="34190000" />
-      <workItem from="1637963060832" duration="27650000" />
-    </task>
-    <task id="LOCAL-00011" summary="Nov 1st Updates cross training 1">
-      <created>1635872683569</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1635872683569</updated>
+      <workItem from="1637963060832" duration="32406000" />
     </task>
     <task id="LOCAL-00012" summary="Nov 1st Updates recursion">
       <created>1635902275997</created>
@@ -532,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638241321362</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="cross-training 4">
+      <created>1638304031814</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1638304031814</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
