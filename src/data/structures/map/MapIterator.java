@@ -1,4 +1,4 @@
-package problems.map;
+package data.structures.map;
 
 import java.util.Iterator;
 import java.util.Map;

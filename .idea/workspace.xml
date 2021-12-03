@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="cross-training 4">
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/FirstNonRepeatingCharacterInStream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/FirstNonRepeatingCharacterInStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/KthSmallestInTwoSortedArrays" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/KthSmallestInTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bigocheatsheet/Array Sorting Algorithms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bigocheatsheet/Big O Complexity Chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bigocheatsheet/Comon Data Structure Operations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/FirstNonRepeatingCharacterInStream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/crosstraining/IV/array/hashtable/linkedlist/math/MajorityNumberI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/map/MapIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/structures/map/MapIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -67,6 +68,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/bigocheatsheet" />
       <recent name="$PROJECT_DIR$/src/problems/crosstraining/two" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -190,14 +192,8 @@
       <workItem from="1637088330749" duration="20764000" />
       <workItem from="1637199197812" duration="22245000" />
       <workItem from="1637624123693" duration="34190000" />
-      <workItem from="1637963060832" duration="32406000" />
-    </task>
-    <task id="LOCAL-00012" summary="Nov 1st Updates recursion">
-      <created>1635902275997</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1635902275997</updated>
+      <workItem from="1637963060832" duration="32417000" />
+      <workItem from="1638558038017" duration="2218000" />
     </task>
     <task id="LOCAL-00013" summary="Nov 3rd Updates recursion">
       <created>1635986071589</created>
@@ -535,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638304031814</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="cross-training 4">
+      <created>1638380175512</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1638380175512</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
