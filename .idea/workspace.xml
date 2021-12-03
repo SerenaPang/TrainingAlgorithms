@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="Big O">
-      <change afterPath="$PROJECT_DIR$/src/data/structures/array/array" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/linkedlist" afterDir="false" />
+    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="data structure">
+      <change afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/doubly/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/singly/LinkedListOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/singly/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/GetKeysInBinaryTreeLayerByLayerZigZagOrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/map/MapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/structures/linkedlist/linkedlist" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/linkedlist" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,7 +81,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MajorityNumberI">
+  <component name="RunManager" selected="Application.LinkedListOperations">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -97,6 +101,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="problems.warm.up.exercises.IV.array.string.partition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.structures.linkedlist.singly.LinkedListOperations" />
+      <module name="TrainingAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.structures.linkedlist.singly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,19 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveLinkedListElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.warm.up.exercises.IV.array.string.partition.RemoveLinkedListElements" />
-      <module name="TrainingAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.warm.up.exercises.IV.array.string.partition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.warm.up.exercises.IV.array.string.partition.StringMatching" />
       <module name="TrainingAlgorithms" />
@@ -158,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListOperations" />
         <item itemvalue="Application.MajorityNumberI" />
         <item itemvalue="Application.AllAnagrams" />
         <item itemvalue="Application.StringMatching" />
         <item itemvalue="Application.MissingNumberI" />
-        <item itemvalue="Application.RemoveLinkedListElements" />
       </list>
     </recent_temporary>
   </component>
@@ -190,14 +194,7 @@
       <workItem from="1637199197812" duration="22245000" />
       <workItem from="1637624123693" duration="34190000" />
       <workItem from="1637963060832" duration="32417000" />
-      <workItem from="1638558038017" duration="3108000" />
-    </task>
-    <task id="LOCAL-00014" summary="Nov 3rd Updates recursion">
-      <created>1635997857673</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1635997857673</updated>
+      <workItem from="1638558038017" duration="5012000" />
     </task>
     <task id="LOCAL-00015" summary="Nov 3rd Updates recursion">
       <created>1636136479580</created>
@@ -535,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638561339298</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="data structure">
+      <created>1638562192195</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1638562192195</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +558,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov 1st Updates cross training 1" />
     <MESSAGE value="Nov 1st Updates recursion" />
     <MESSAGE value="Nov 3rd Updates recursion" />
     <MESSAGE value="Nov 8th Updates recursion" />
@@ -579,7 +582,8 @@
     <MESSAGE value="warm up for cross-training 4" />
     <MESSAGE value="cross-training 4" />
     <MESSAGE value="Big O" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big O" />
+    <MESSAGE value="data structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="data structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

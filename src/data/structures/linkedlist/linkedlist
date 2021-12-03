@@ -3,3 +3,6 @@ Random access time: O(n) -> we can only traverse from the head of the linked lis
 Search time(unsorted): O(n)
 Search time(sorted): O(n)
 
+
+For list, we need to always know where the "HEAD" is, so that we can traverse/find any elements
+in the list by iterating the "next" reference
