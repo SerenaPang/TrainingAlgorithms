@@ -1,0 +1,5 @@
+Memory Layout: Non consecutive; overhead of multiple object with the "next" reference
+Random access time: O(n) -> we can only traverse from the head of the linked list
+Search time(unsorted): O(n)
+Search time(sorted): O(n)
+

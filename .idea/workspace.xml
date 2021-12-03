@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="cross-training 4">
-      <change afterPath="$PROJECT_DIR$/src/bigocheatsheet/Array Sorting Algorithms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bigocheatsheet/Big O Complexity Chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bigocheatsheet/Comon Data Structure Operations.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/warm/up/exercises/IV/array/string/partition/FirstNonRepeatingCharacterInStream" afterDir="false" />
+    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="Big O">
+      <change afterPath="$PROJECT_DIR$/src/data/structures/array/array" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/linkedlist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/map/MapIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/structures/map/MapIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,14 +190,7 @@
       <workItem from="1637199197812" duration="22245000" />
       <workItem from="1637624123693" duration="34190000" />
       <workItem from="1637963060832" duration="32417000" />
-      <workItem from="1638558038017" duration="2218000" />
-    </task>
-    <task id="LOCAL-00013" summary="Nov 3rd Updates recursion">
-      <created>1635986071589</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1635986071589</updated>
+      <workItem from="1638558038017" duration="3108000" />
     </task>
     <task id="LOCAL-00014" summary="Nov 3rd Updates recursion">
       <created>1635997857673</created>
@@ -538,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638380175512</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Big O">
+      <created>1638561339298</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1638561339298</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +554,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov 1st Updates cross training 1 and 2" />
     <MESSAGE value="Nov 1st Updates cross training 1" />
     <MESSAGE value="Nov 1st Updates recursion" />
     <MESSAGE value="Nov 3rd Updates recursion" />
@@ -582,7 +578,8 @@
     <MESSAGE value="updates" />
     <MESSAGE value="warm up for cross-training 4" />
     <MESSAGE value="cross-training 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="cross-training 4" />
+    <MESSAGE value="Big O" />
+    <option name="LAST_COMMIT_MESSAGE" value="Big O" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

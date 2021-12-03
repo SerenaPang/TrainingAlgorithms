@@ -1,0 +1,15 @@
+Memory Layout: Consecutive allocated memory space, no overhead
+Random access time: O(1) ->calculating the offset
+Search time(unsorted): O(n)
+Search time(sorted): O(logn) - binary search
+
+array: a collection of elements
+Arrays(class): https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html
+Array(class): https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Array.html
+
+- arrays are objects
+- array length is can not be changed after the array object is created
+
+Exceptions/Errors:
+ArrayIndexOutOfBoundException: not in valid range
+NullPointerException: de referencing null
