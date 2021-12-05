@@ -1,0 +1,38 @@
+ArrayList is regarded as a resizable array
+- maintain an array with potential unused cells
+- will expand the array if there is no unused cells available
+
+APIs:
+- get(int index)at head/tail/in middle: O(1)
+- set(int index)at head/tail/in middle: O(1)
+- add(E e): O(n)
+ 1. expand if necessary -> amortizedO(1)(need expand: O(n); no need expand: O(1))
+ 2. right move all the elements after index by 1 -> O(n)
+ 3. set the element at index -> O(1)
+
+- remove(int index) -> worst time O(n)
+1. at head: O(n)
+2. at tail: O(1)
+3. at middle O(n)
+
+- size(): O(1)
+- isEmpty(): O(1)
+
+
+add(E e):
+ 1. check if it is full size == current capacity
+ 2. if it is full, create a new arraytmp, arraytmp size is 1.5 array's size, copy all the element in array
+ to arraytmp, and change the maintained array to arraytmp
+ 3. set the 11th element's value to whatever you want, size++
+
+remove(int index):
+ 1. check if index out of bound first
+ 2. move all the elements before the index to the left by 1 position, size--
+
+
+When to choose ArrayList/LinkedList?
+choose ArrayList when:
+- you have a lot of random access operations
+- you always add/remove at the END(Because arraylist has less overhead, and locality is considered for memory)
+
+
