@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="data structure">
-      <change afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/doubly/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/singly/LinkedListOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/singly/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/crosstraining/one/GetKeysInBinaryTreeLayerByLayerZigZagOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/map/MapIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/structures/linkedlist/linkedlist" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/linkedlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/GeyKeysInBinaryTreeLayerByLayerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/Move0sToTheEndITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrainingAlgorithms/problems/warm/up/exercises/I/SpiralOrderTraverseITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/structures/linkedlist/singly/LinkedListOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/structures/linkedlist/singly/LinkedListOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,14 +192,7 @@
       <workItem from="1637199197812" duration="22245000" />
       <workItem from="1637624123693" duration="34190000" />
       <workItem from="1637963060832" duration="32417000" />
-      <workItem from="1638558038017" duration="5012000" />
-    </task>
-    <task id="LOCAL-00015" summary="Nov 3rd Updates recursion">
-      <created>1636136479580</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1636136479580</updated>
+      <workItem from="1638558038017" duration="15245000" />
     </task>
     <task id="LOCAL-00016" summary="Nov 8th Updates recursion">
       <created>1636486037547</created>
@@ -539,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638562192195</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="data structure">
+      <created>1638564054501</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1638564054501</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

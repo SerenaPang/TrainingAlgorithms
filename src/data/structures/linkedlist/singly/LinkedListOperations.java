@@ -1,4 +1,7 @@
 package data.structures.linkedlist.singly;
+
+import java.util.List;
+
 /**
  * Operations:
  *  - get length
@@ -53,22 +56,57 @@ public class LinkedListOperations {
     /**
      * append value in the head of the linked list
      * */
-    public void appendHead() {
-
+    public ListNode appendHead(ListNode head, int value) {
+        ListNode newHead = new ListNode(value);
+        newHead.next = head;
+        return newHead;
     }
     /**
-     *
+     * append value in the tail of the linked list
+     * case 1: head is null -> return the new node as head
+     * case 2: head is not null -> find the last node and append to it
      * */
-    public void appendTail() {
-
+    public ListNode appendTail(ListNode head, int value) {
+        if (head == null) {
+            return new ListNode(value);
+        }
+        ListNode prev = head;
+        while (prev != null) {
+            prev = prev.next;
+        }
+        prev.next = new ListNode(value);
+        return head;
     }
+
     /**
-     *
+     * append in middle of the linked list
      * */
-    public void remove () {
-
+    public ListNode appendMid(ListNode head, int value) {
+        ListNode newNode = new ListNode(value);
+        ListNode prev = head;
+         while (prev.next.value != value) {
+            prev = prev.next;
+        }
+         prev.next = prev.next.next;
+        return head;
     }
 
+    /**
+     * remove the first matching element(head, middle, tail)
+     * */
+    public ListNode remove (ListNode head, int value) {
+        //remove head
+        if (head.value == value) {
+            return head.next;
+        }
+        //remove the node in the middle or at the tail
+        ListNode prev = head;
+       while (prev.next != null && prev.next.value != value) {
+           prev = prev.next;
+       }
+       prev.next = prev.next.next;
+       return head;
+    }
 
     public static void main(String[] args) {
         ListNode one = new ListNode(1);
