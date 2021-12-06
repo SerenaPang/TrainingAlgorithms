@@ -1,0 +1,11 @@
+First In First Out
+
+Operation:
+All operations' cost is O(1)
+- insert: offer(e)
+- remove: poll()
+- examine: peek()
+- isEmpty()
+- size()
+
+

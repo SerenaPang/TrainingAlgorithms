@@ -1,0 +1,14 @@
+Operations:
+All operations' cost is O(1)
+- insert: offerFirst(e), offerLast(e)
+- remove: pollFirst(), pollLast();
+- examine: peekFirst(), peekLast()
+- isEmpty()
+- size()
+
+queue and stack and deque are implemented by: LinkedList, ArrayDeque
+
+use ArrayDeque is better than Linked List:
+Linked structures are possibly the worst structure to iterate with a cache miss on each element. On top of it they consume way more memory.
+If you need add/remove of the both ends, ArrayDeque is significantly better than a linked list. Random access each element is also O(1) for a cyclic queue.
+The only better operation of a linked list is removing the current element during iteration.
