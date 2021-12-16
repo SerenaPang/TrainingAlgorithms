@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="data structure">
-      <change afterPath="$PROJECT_DIR$/src/data/structures/stack/BoundStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/ClassicalBinarySearch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/ClassicalBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/SearchInSortedMatrixI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/SearchInSortedMatrixI.java" afterDir="false" />
+    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="binary search">
+      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/ClosestInSortedArray" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/ClosestInSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +77,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchInSortedMatrixI">
+  <component name="RunManager" selected="Application.ClosestInSortedArray">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -94,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.warm.up.exercises.IV.array.string.partition.AllAnagrams" />
+    <configuration name="ClassicalBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.binary.search.ClassicalBinarySearch" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.warm.up.exercises.IV.array.string.partition.*" />
+          <option name="PATTERN" value="problems.binary.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassicalBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.binary.search.ClassicalBinarySearch" />
+    <configuration name="ClosestInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.binary.search.ClosestInSortedArray" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClosestInSortedArray" />
         <item itemvalue="Application.SearchInSortedMatrixI" />
         <item itemvalue="Application.ClassicalBinarySearch" />
         <item itemvalue="Application.LinkedListOperations" />
         <item itemvalue="Application.MajorityNumberI" />
-        <item itemvalue="Application.AllAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -196,14 +193,7 @@
       <workItem from="1638558038017" duration="29935000" />
       <workItem from="1639091743580" duration="10000" />
       <workItem from="1639612237180" duration="5667000" />
-      <workItem from="1639617933148" duration="616000" />
-    </task>
-    <task id="LOCAL-00020" summary="Nov 12th recursion">
-      <created>1636741919354</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1636741919354</updated>
+      <workItem from="1639617933148" duration="3230000" />
     </task>
     <task id="LOCAL-00021" summary="Nov 13th warm up for cross trainning 2">
       <created>1636830941683</created>
@@ -541,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638907799099</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="binary search">
+      <created>1639618645423</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1639618645424</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +557,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov 1st Updates recursion" />
     <MESSAGE value="Nov 3rd Updates recursion" />
     <MESSAGE value="Nov 8th Updates recursion" />
     <MESSAGE value="Nov 9th Updates recursion" />
@@ -585,7 +581,8 @@
     <MESSAGE value="cross-training 4" />
     <MESSAGE value="Big O" />
     <MESSAGE value="data structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="data structure" />
+    <MESSAGE value="binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
