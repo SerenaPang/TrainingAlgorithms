@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="data structure">
+      <change afterPath="$PROJECT_DIR$/src/data/structures/stack/BoundStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/ClassicalBinarySearch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/ClassicalBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/SearchInSortedMatrixI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/SearchInSortedMatrixI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/structures/queue/BoundedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/structures/queue/BoundedQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +80,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedListOperations">
+  <component name="RunManager" selected="Application.SearchInSortedMatrixI">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -96,6 +100,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="problems.warm.up.exercises.IV.array.string.partition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassicalBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.binary.search.ClassicalBinarySearch" />
+      <module name="TrainingAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.binary.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,25 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumberI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.warm.up.exercises.IV.array.string.partition.MissingNumberI" />
+    <configuration name="SearchInSortedMatrixI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.binary.search.SearchInSortedMatrixI" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.warm.up.exercises.IV.array.string.partition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.warm.up.exercises.IV.array.string.partition.StringMatching" />
-      <module name="TrainingAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.warm.up.exercises.IV.array.string.partition.*" />
+          <option name="PATTERN" value="problems.binary.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInSortedMatrixI" />
+        <item itemvalue="Application.ClassicalBinarySearch" />
         <item itemvalue="Application.LinkedListOperations" />
         <item itemvalue="Application.MajorityNumberI" />
         <item itemvalue="Application.AllAnagrams" />
-        <item itemvalue="Application.StringMatching" />
-        <item itemvalue="Application.MissingNumberI" />
       </list>
     </recent_temporary>
   </component>
@@ -189,14 +193,10 @@
       <workItem from="1637199197812" duration="22245000" />
       <workItem from="1637624123693" duration="34190000" />
       <workItem from="1637963060832" duration="32417000" />
-      <workItem from="1638558038017" duration="27901000" />
-    </task>
-    <task id="LOCAL-00019" summary="Nov 11th recursion">
-      <created>1636691647409</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1636691647409</updated>
+      <workItem from="1638558038017" duration="29935000" />
+      <workItem from="1639091743580" duration="10000" />
+      <workItem from="1639612237180" duration="5667000" />
+      <workItem from="1639617933148" duration="616000" />
     </task>
     <task id="LOCAL-00020" summary="Nov 12th recursion">
       <created>1636741919354</created>
@@ -534,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638750926932</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="data structure">
+      <created>1638907799099</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1638907799099</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
