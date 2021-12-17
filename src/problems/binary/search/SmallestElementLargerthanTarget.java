@@ -13,6 +13,9 @@ public class SmallestElementLargerthanTarget {
      *
      * */
     public int smallestElementLargerThanTarget(int[] array, int target) {
+        if (array == null || array.length == 0) {
+            return -1;
+        }
         int left = 0;
         int right = array.length - 1;
         while (left < right - 1) {
