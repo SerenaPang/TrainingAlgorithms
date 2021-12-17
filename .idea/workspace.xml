@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="binary search">
+      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/SearchInUnknownSizedSortedArray" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/binary/search/SearchInUnknownSizedSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/binary/search/SmallestElementLargerthanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/binary/search/SmallestElementLargerthanTarget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SmallestElementLargerthanTarget">
+  <component name="RunManager" selected="Application.SearchInUnknownSizedSortedArray">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -86,19 +87,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClosestInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.binary.search.ClosestInSortedArray" />
-      <module name="TrainingAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.binary.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,6 +130,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInUnknownSizedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.binary.search.SearchInUnknownSizedSortedArray" />
+      <module name="TrainingAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.binary.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallestElementLargerthanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.binary.search.SmallestElementLargerthanTarget" />
       <module name="TrainingAlgorithms" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInUnknownSizedSortedArray" />
         <item itemvalue="Application.SmallestElementLargerthanTarget" />
         <item itemvalue="Application.KClosestInSortedArray" />
         <item itemvalue="Application.LastOccurrence" />
         <item itemvalue="Application.FirstOccurrence" />
-        <item itemvalue="Application.ClosestInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -193,14 +194,7 @@
       <workItem from="1639091743580" duration="10000" />
       <workItem from="1639612237180" duration="5667000" />
       <workItem from="1639617933148" duration="8263000" />
-      <workItem from="1639691289675" duration="9287000" />
-    </task>
-    <task id="LOCAL-00025" summary="Nov 17th cross training 2">
-      <created>1637199717255</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1637199717255</updated>
+      <workItem from="1639691289675" duration="13614000" />
     </task>
     <task id="LOCAL-00026" summary="Nov 19th cross training 2">
       <created>1637351500410</created>
@@ -538,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639766734725</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="binary search">
+      <created>1639766816931</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1639766816931</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
