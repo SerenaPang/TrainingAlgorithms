@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/AtoThePowerOfb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/AtoThePowerOfb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/recursion/sorting/AtoThePowerOfb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/AtoThePowerOfb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchInUnknownSizedSortedArray">
+  <component name="RunManager" selected="Application.AtoThePowerOfb">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.binary.search.FirstOccurrence" />
+    <configuration name="AtoThePowerOfb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.AtoThePowerOfb" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.binary.search.*" />
+          <option name="PATTERN" value="problems.recursion.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtoThePowerOfb" />
         <item itemvalue="Application.SearchInUnknownSizedSortedArray" />
         <item itemvalue="Application.SmallestElementLargerthanTarget" />
         <item itemvalue="Application.KClosestInSortedArray" />
         <item itemvalue="Application.LastOccurrence" />
-        <item itemvalue="Application.FirstOccurrence" />
       </list>
     </recent_temporary>
   </component>
@@ -195,14 +194,7 @@
       <workItem from="1639612237180" duration="5667000" />
       <workItem from="1639617933148" duration="8263000" />
       <workItem from="1639691289675" duration="14101000" />
-      <workItem from="1639794217204" duration="3828000" />
-    </task>
-    <task id="LOCAL-00028" summary="Nov 20th cross training 3">
-      <created>1637432514176</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1637432514176</updated>
+      <workItem from="1639794217204" duration="11119000" />
     </task>
     <task id="LOCAL-00029" summary="Nov 20th cross training 3">
       <created>1637433555599</created>
@@ -540,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639800107317</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="recursion">
+      <created>1639800490215</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1639800490215</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
