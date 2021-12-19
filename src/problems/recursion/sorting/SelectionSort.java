@@ -3,7 +3,7 @@ package problems.recursion.sorting;
  *  selection sort algorithm:
  *  select the smallest element each iteration and swap it with the element in the front
  *
- *  TC: O(2^n)
+ *  TC: O(n^2)
  *  SC: O(1), we are modifying(swap character positions in the array)
  *
  *   smallest: max
@@ -23,7 +23,6 @@ public class SelectionSort {
         if (array == null || array.length == 0) {
             return array;
         }
-
         /**
          * small: 0
          *  1 2 3
@@ -56,15 +55,17 @@ public class SelectionSort {
         System.out.println();
     }
     public static void main(String[] args) {
+        SelectionSort s = new SelectionSort();
         //int[] array = new int[]{1};
         //int[] array = new int[]{1,2,3};
         //int[] array = new int[]{3,2,1};
-        int[] array = new int[]{4,2,-3,6,1};
+        //int[] array = new int[]{4,2,-3,6,1};
+        int[] array = new int[]{2,4,1,5,3};
+        s.print(array);
 
-        SelectionSort s = new SelectionSort();
         int[] reslut = s.solve(array);
 
-        s.print(array);
+
         s.print(reslut);
     }
 }
