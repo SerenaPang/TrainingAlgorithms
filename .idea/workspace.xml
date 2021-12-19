@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/SelectionSort" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/SelectionSort.java" afterDir="false" />
+    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="sorting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/recursion/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AtoThePowerOfb">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -117,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.binary.search.LastOccurrence" />
+    <configuration name="SearchInUnknownSizedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.binary.search.SearchInUnknownSizedSortedArray" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -130,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInUnknownSizedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.binary.search.SearchInUnknownSizedSortedArray" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.SelectionSort" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.binary.search.*" />
+          <option name="PATTERN" value="problems.recursion.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.AtoThePowerOfb" />
         <item itemvalue="Application.SearchInUnknownSizedSortedArray" />
         <item itemvalue="Application.SmallestElementLargerthanTarget" />
         <item itemvalue="Application.KClosestInSortedArray" />
-        <item itemvalue="Application.LastOccurrence" />
       </list>
     </recent_temporary>
   </component>
@@ -195,14 +194,7 @@
       <workItem from="1639612237180" duration="5667000" />
       <workItem from="1639617933148" duration="8263000" />
       <workItem from="1639691289675" duration="14101000" />
-      <workItem from="1639794217204" duration="12698000" />
-    </task>
-    <task id="LOCAL-00030" summary="Nov 22th cross training 3">
-      <created>1637607281014</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1637607281014</updated>
+      <workItem from="1639794217204" duration="14782000" />
     </task>
     <task id="LOCAL-00031" summary="Nov 22th cross training 3">
       <created>1637608793412</created>
@@ -540,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639889502207</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="sorting">
+      <created>1639891430715</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1639891430715</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +558,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov 8th Updates recursion" />
     <MESSAGE value="Nov 9th Updates recursion" />
     <MESSAGE value="Nov 11th recursion" />
     <MESSAGE value="Nov 12th recursion" />
@@ -584,7 +582,8 @@
     <MESSAGE value="data structure" />
     <MESSAGE value="binary search" />
     <MESSAGE value="recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
+    <MESSAGE value="sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="sorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
