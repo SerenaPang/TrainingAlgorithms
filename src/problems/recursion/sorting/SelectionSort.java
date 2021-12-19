@@ -17,9 +17,12 @@ package problems.recursion.sorting;
       j
  * */
 public class SelectionSort {
-    //i represent the biggest number smaller than the rest of the numbers, before i are the numbers already sorted
-    //j is used to iterate the unsorted numbers and find the smallest number in the (rest of unsorted)array
+    //i represent the biggest number smaller than the rest of the numbers, before i are the numbers that are already sorted
+    //j is used to iterate the unsorted numbers and find the smallest number in the rest of the unsorted array
     public int[] solve(int[] array) {
+        if (array == null || array.length == 0) {
+            return array;
+        }
 
         /**
          * small: 0
