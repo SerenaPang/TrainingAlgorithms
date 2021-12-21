@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="sorting">
+      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/MergeSort" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/recursion/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KClosestInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.binary.search.KClosestInSortedArray" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.MergeSort" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.binary.search.*" />
+          <option name="PATTERN" value="problems.recursion.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.AtoThePowerOfb" />
         <item itemvalue="Application.SearchInUnknownSizedSortedArray" />
         <item itemvalue="Application.SmallestElementLargerthanTarget" />
-        <item itemvalue="Application.KClosestInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -194,14 +195,8 @@
       <workItem from="1639612237180" duration="5667000" />
       <workItem from="1639617933148" duration="8263000" />
       <workItem from="1639691289675" duration="14101000" />
-      <workItem from="1639794217204" duration="15201000" />
-    </task>
-    <task id="LOCAL-00033" summary="Nov 22th cross training 3">
-      <created>1637611454774</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1637611454774</updated>
+      <workItem from="1639794217204" duration="15427000" />
+      <workItem from="1640021653358" duration="7551000" />
     </task>
     <task id="LOCAL-00034" summary="Nov 22th cross training 3">
       <created>1637622752590</created>
@@ -539,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639893807522</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="sorting">
+      <created>1639893926302</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1639893926302</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
