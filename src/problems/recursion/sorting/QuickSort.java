@@ -1,5 +1,8 @@
 package problems.recursion.sorting;
 /**
+ * TC: O(n^2), n represents the number of partition we need to do for each number
+ * or O(nlogn) if pivot evenly, randomly picked a pivot
+ * SC: O(n) or O(logn)
  * quick sort algorithm:
  * randomly pick pivot in the array, so that we can partition the array base on the pivot value
  * recursively pick a pivot and partition the array
@@ -30,7 +33,8 @@ public class QuickSort {
         }
         int left = 0;
         int right = array.length - 1;
-        return quickSort(array, left, right);
+        quickSort(array, left, right);
+        return array;
     }
 
     /**
@@ -69,16 +73,15 @@ public class QuickSort {
      * but left and right changes each time we call partition
      *
      * */
-    public int[] quickSort(int[] array, int left, int right) {
-        if (left <= right) {
-            return array;
+    public void quickSort(int[] array, int left, int right) {
+        if (left >= right) {
+            return;
         }
         int pivotIndex = partition(array, left, right);
         //since we move the pivot to the end, when we do partition, we shouldn't include pivot itself
-        int rightBound = right - 1;
         quickSort(array, left, pivotIndex - 1);
-        quickSort(array, pivotIndex + 1, rightBound);
-        return array;
+        //right has included the last element in the array
+        quickSort(array, pivotIndex + 1, right);
     }
 
     /**
@@ -97,22 +100,26 @@ public class QuickSort {
         int pivot = array[pivotIndex];
         //move the pivot to the end
         swap(array ,pivotIndex, right);
-
-       while (left <= right) {
-           if (array[left] < pivot) {
-                left++;
-           } else if (array[right] > pivot) {
-               right--;
+        int leftBound  = left;
+        //here we should exclude the pivot(we have move the pivot to the end of the array)
+        int rightBound = right - 1;
+       while (leftBound <= rightBound) {
+           System.out.println("left: " + left + " left bound: " + leftBound + " right: " + rightBound);
+           if (array[leftBound] <= pivot) {
+               leftBound++;
+           } else if (array[rightBound] >= pivot) {
+               rightBound--;
            } else {
-               swap(array, left, right);
-               left++;
-               right--;
+               swap(array, leftBound, rightBound);
+               leftBound++;
+               rightBound--;
            }
        }
-       //move the pivot back to where is should be
-        swap(array, left, array.length - 1);
+       //move the pivot back to where it should be, remember right is the last element where we have moved the pivot
+        //right bound is the pointer that we use to scan the array, it will overlap with left bound
+        swap(array, leftBound, right);
        //return left which is the pivot , since pivot to the left and to the right are sorted, it will not be included in the next partition
-       return left;
+       return leftBound;
     }
 
     /**

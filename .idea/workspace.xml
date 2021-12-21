@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="sorting">
-      <change afterPath="$PROJECT_DIR$/src/java/api/MathRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/QuickSort" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/recursion/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -118,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.QuickSort" />
+      <module name="TrainingAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.recursion.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchInUnknownSizedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.binary.search.SearchInUnknownSizedSortedArray" />
       <module name="TrainingAlgorithms" />
@@ -144,26 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestElementLargerthanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.binary.search.SmallestElementLargerthanTarget" />
-      <module name="TrainingAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.binary.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.AtoThePowerOfb" />
         <item itemvalue="Application.SearchInUnknownSizedSortedArray" />
-        <item itemvalue="Application.SmallestElementLargerthanTarget" />
       </list>
     </recent_temporary>
   </component>
@@ -197,14 +195,7 @@
       <workItem from="1639617933148" duration="8263000" />
       <workItem from="1639691289675" duration="14101000" />
       <workItem from="1639794217204" duration="15427000" />
-      <workItem from="1640021653358" duration="20341000" />
-    </task>
-    <task id="LOCAL-00035" summary="Nov 22th cross training 3">
-      <created>1637623106306</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1637623106306</updated>
+      <workItem from="1640021653358" duration="21879000" />
     </task>
     <task id="LOCAL-00036" summary="Nov 22th cross training 3">
       <created>1637629778572</created>
@@ -542,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640044929420</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="sorting">
+      <created>1640121692890</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1640121692890</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
