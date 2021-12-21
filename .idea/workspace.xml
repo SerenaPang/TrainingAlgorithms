@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="sorting">
-      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/MergeSort" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/api/MathRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/QuickSort" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,14 +197,7 @@
       <workItem from="1639617933148" duration="8263000" />
       <workItem from="1639691289675" duration="14101000" />
       <workItem from="1639794217204" duration="15427000" />
-      <workItem from="1640021653358" duration="7551000" />
-    </task>
-    <task id="LOCAL-00034" summary="Nov 22th cross training 3">
-      <created>1637622752590</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1637622752590</updated>
+      <workItem from="1640021653358" duration="20341000" />
     </task>
     <task id="LOCAL-00035" summary="Nov 22th cross training 3">
       <created>1637623106306</created>
@@ -541,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639893926302</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="sorting">
+      <created>1640044929420</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1640044929420</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
