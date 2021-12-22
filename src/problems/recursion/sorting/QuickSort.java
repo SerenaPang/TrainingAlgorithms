@@ -74,6 +74,7 @@ public class QuickSort {
      *
      * */
     public void quickSort(int[] array, int left, int right) {
+        System.out.println("left: " + left + " right: " + right);
         if (left >= right) {
             return;
         }
@@ -104,7 +105,7 @@ public class QuickSort {
         //here we should exclude the pivot(we have move the pivot to the end of the array)
         int rightBound = right - 1;
        while (leftBound <= rightBound) {
-           System.out.println("left: " + left + " left bound: " + leftBound + " right: " + rightBound);
+          // System.out.println("left: " + left + " left bound: " + leftBound + " right: " + rightBound);
            if (array[leftBound] <= pivot) {
                leftBound++;
            } else if (array[rightBound] >= pivot) {

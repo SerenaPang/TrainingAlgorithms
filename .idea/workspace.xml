@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="sorting">
+      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problems/recursion/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/QuickSort.java" afterDir="false" />
     </list>
@@ -195,14 +196,7 @@
       <workItem from="1639617933148" duration="8263000" />
       <workItem from="1639691289675" duration="14101000" />
       <workItem from="1639794217204" duration="15427000" />
-      <workItem from="1640021653358" duration="21879000" />
-    </task>
-    <task id="LOCAL-00036" summary="Nov 22th cross training 3">
-      <created>1637629778572</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1637629778572</updated>
+      <workItem from="1640021653358" duration="23266000" />
     </task>
     <task id="LOCAL-00037" summary="Nov 22th cross training 3">
       <created>1637630448159</created>
@@ -540,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640121692890</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="sorting">
+      <created>1640123228634</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1640123228634</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
