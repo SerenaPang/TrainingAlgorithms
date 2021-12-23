@@ -103,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionSort" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.InsertionSort" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
@@ -155,9 +155,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.AtoThePowerOfb" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.SelectionSort" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.SelectionSort" />
@@ -198,6 +204,7 @@
       <workItem from="1640021653358" duration="25288000" />
       <workItem from="1640149081144" duration="30000" />
       <workItem from="1640206678560" duration="25411000" />
+      <workItem from="1640298771138" duration="83000" />
     </task>
     <task id="LOCAL-00039" summary="Nov 23th cross training 3">
       <created>1637702684735</created>
