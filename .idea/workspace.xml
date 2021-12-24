@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="iterator">
+    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="sorting">
+      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/Move0sToTheEndI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/Move0sToTheEndI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/RainbowSort" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/RainbowSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problems/recursion/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/recursion/sorting/InsertionSort.java" afterDir="false" />
     </list>
@@ -76,7 +80,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.Move0sToTheEndI">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -86,19 +90,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AtoThePowerOfb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.AtoThePowerOfb" />
-      <module name="TrainingAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.recursion.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,6 +109,19 @@
     </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.MergeSort" />
+      <module name="TrainingAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.recursion.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Move0sToTheEndI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.Move0sToTheEndI" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Move0sToTheEndI" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.AtoThePowerOfb" />
       </list>
     </recent_temporary>
   </component>
@@ -197,14 +201,7 @@
       <workItem from="1639794217204" duration="15427000" />
       <workItem from="1640021653358" duration="25288000" />
       <workItem from="1640149081144" duration="30000" />
-      <workItem from="1640206678560" duration="25411000" />
-    </task>
-    <task id="LOCAL-00039" summary="Nov 23th cross training 3">
-      <created>1637702684735</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1637702684735</updated>
+      <workItem from="1640206678560" duration="34462000" />
     </task>
     <task id="LOCAL-00040" summary="Nov 23th cross training 3">
       <created>1637709645540</created>
@@ -542,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640208592348</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="sorting">
+      <created>1640289468379</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1640289468379</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,9 +588,9 @@
     <MESSAGE value="data structure" />
     <MESSAGE value="binary search" />
     <MESSAGE value="recursion" />
-    <MESSAGE value="sorting" />
     <MESSAGE value="iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterator" />
+    <MESSAGE value="sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="sorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

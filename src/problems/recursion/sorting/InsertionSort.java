@@ -127,8 +127,8 @@ public class InsertionSort {
         //int[] array = new int[]{1};
         //int[] array = new int[]{1,2,3};
         //int[] array = new int[]{3,2,1};
-        //int[] array = new int[]{4,2,-3,6,1};
-        int[] array = new int[]{2,4,1,5,3};
+        int[] array = new int[]{4,2,-3,6,1};
+        //int[] array = new int[]{2,4,1,5,3};
 
         int[] reslut = i.insertionSort(array);
         //i.print(reslut);
