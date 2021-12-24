@@ -72,7 +72,7 @@ public class InsertionSort {
             print(array);
 
             //array[i] is the number that needs to be reallocated
-            int value = array[i];;
+            int value = array[i];
             if (value < array[i - 1]) {
                 //System.out.println("array i: " + array[i] + " needs to be reallocate");
                 //j represents where we are going to put the number
