@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="sorting">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListIteratively" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListIteratively.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="linkedlist">
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,13 +197,6 @@
       <workItem from="1640021653358" duration="25288000" />
       <workItem from="1640149081144" duration="30000" />
       <workItem from="1640206678560" duration="25411000" />
-    </task>
-    <task id="LOCAL-00040" summary="Nov 23th cross training 3">
-      <created>1637709645540</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1637709645540</updated>
     </task>
     <task id="LOCAL-00041" summary="Nov 23th cross training 3">
       <created>1637709947949</created>
@@ -546,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640753425703</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="linkedlist">
+      <created>1640891665401</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1640891665401</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +560,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nov 11th recursion" />
     <MESSAGE value="Nov 12th recursion" />
     <MESSAGE value="Nov 13th warm up for cross trainning 2" />
     <MESSAGE value="Nov 14th warm up for cross trainning 2" />
@@ -590,7 +584,8 @@
     <MESSAGE value="recursion" />
     <MESSAGE value="iterator" />
     <MESSAGE value="sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorting" />
+    <MESSAGE value="linkedlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedlist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

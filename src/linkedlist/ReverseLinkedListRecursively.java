@@ -3,7 +3,7 @@ package linkedlist;
 public class ReverseLinkedListRecursively {
     /**
      *  0 -> 1 -> 2 -> 3 -> null
-     *  c
+     *  h
      *
      * for every recursion function call in the call stack, we keep head and head.next
      * we go to the end of the linked list, find the new head
