@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="linkedlist">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/CheckIfLinkedListHasACycle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/CheckIfLinkedListHasACycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/MiddleNodeOfLinkedList" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/MiddleNodeOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/linkedlist/MergeSortLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/CheckIfLinkedListHasACycle" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/CheckIfLinkedListHasACycle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/CheckIfLinkedListHasACycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/CheckIfLinkedListHasACycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/MiddleNodeOfLinkedList" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/MiddleNodeOfLinkedList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/MiddleNodeOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/MiddleNodeOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListIteratively" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ReverseLinkedListIteratively" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListIteratively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ReverseLinkedListIteratively.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ReverseLinkedListRecursively" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ReverseLinkedListRecursively.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +76,9 @@
       <recent name="$PROJECT_DIR$/src/bigocheatsheet" />
       <recent name="$PROJECT_DIR$/src/problems/crosstraining/two" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="problems" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="problems.crosstraining.one" />
       <recent name="problems.warm.up.exercises.I" />
@@ -95,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="CheckIfLinkedListHasACycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.CheckIfLinkedListHasACycle" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.CheckIfLinkedListHasACycle" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="problems.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="MiddleNodeOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.MiddleNodeOfLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.MiddleNodeOfLinkedList" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="problems.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +142,11 @@
       </method>
     </configuration>
     <configuration name="ReverseLinkedListIteratively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.ReverseLinkedListIteratively" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.ReverseLinkedListIteratively" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="problems.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +155,11 @@
       </method>
     </configuration>
     <configuration name="ReverseLinkedListRecursively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.ReverseLinkedListRecursively" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.ReverseLinkedListRecursively" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="problems.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,13 +210,6 @@
       <workItem from="1640021653358" duration="25288000" />
       <workItem from="1640149081144" duration="30000" />
       <workItem from="1640206678560" duration="25411000" />
-    </task>
-    <task id="LOCAL-00042" summary="Nov 24th cross training 3">
-      <created>1637777960218</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1637777960218</updated>
     </task>
     <task id="LOCAL-00043" summary="Nov 24th cross training 3">
       <created>1637781581115</created>
@@ -546,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640891689735</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="linkedlist">
+      <created>1640908013573</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1640908013573</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +614,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively.java</url>
+          <url>file://$PROJECT_DIR$/src/problems/linkedlist/ReverseLinkedListRecursively.java</url>
           <line>53</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

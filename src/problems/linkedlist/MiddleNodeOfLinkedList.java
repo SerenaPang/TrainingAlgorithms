@@ -1,4 +1,4 @@
-package linkedlist;
+package problems.linkedlist;
 
 public class MiddleNodeOfLinkedList {
     /**
