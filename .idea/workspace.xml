@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="linkedlist">
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/CheckIfLinkedListHasACycle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/CheckIfLinkedListHasACycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/MiddleNodeOfLinkedList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/MiddleNodeOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +80,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedListRecursively">
+  <component name="RunManager" selected="Application.CheckIfLinkedListHasACycle">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.InsertionSort" />
+    <configuration name="CheckIfLinkedListHasACycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.CheckIfLinkedListHasACycle" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.recursion.sorting.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.QuickSort" />
+    <configuration name="MiddleNodeOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.MiddleNodeOfLinkedList" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.recursion.sorting.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfLinkedListHasACycle" />
+        <item itemvalue="Application.MiddleNodeOfLinkedList" />
         <item itemvalue="Application.ReverseLinkedListRecursively" />
         <item itemvalue="Application.ReverseLinkedListIteratively" />
         <item itemvalue="Application.RainbowSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -197,13 +202,6 @@
       <workItem from="1640021653358" duration="25288000" />
       <workItem from="1640149081144" duration="30000" />
       <workItem from="1640206678560" duration="25411000" />
-    </task>
-    <task id="LOCAL-00041" summary="Nov 23th cross training 3">
-      <created>1637709947949</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1637709947949</updated>
     </task>
     <task id="LOCAL-00042" summary="Nov 24th cross training 3">
       <created>1637777960218</created>
@@ -541,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640891665401</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="linkedlist">
+      <created>1640891689735</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1640891689735</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
