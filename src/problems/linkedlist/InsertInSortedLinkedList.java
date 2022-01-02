@@ -23,15 +23,53 @@ public class InsertInSortedLinkedList {
         }
         ListNode cur = head;
         //insert in the middle of the linked list, include the case of appending at the end of the linked list
-        //0 1 3 4  insert 2
-        //  h.n
+        //0 1  3 4  insert 2
+        //     c
+        //0 1 2 3 4 insert 5
+        //        c
+        //cur should stop at the nxt is null
+        ListNode pre = null;
+        while (cur != null && cur.value <= value) {
+            pre = cur;
+            cur = cur.next;
+        }
+        ListNode newNode = new ListNode(value);
+        ListNode nxt = pre.next;
+        pre.next = newNode;
+        newNode.next = nxt;
+        return head;
+    }
+
+    //insert in the middle using cur.next
+    public ListNode insertII(ListNode head, int value){
+        ListNode cur = head;
         while (cur.next.value < value) {
             cur = cur.next;
         }
         ListNode newNode = new ListNode(value);
-        //remember to store the next nodes so that we don;t lost them
+        //remember to store the next nodes so that we don't lost them
         ListNode nxt = cur.next;
         cur.next = newNode;
+        newNode.next = nxt;
+        return head;
+    }
+
+    //insert the node at the end of the linked list
+    public ListNode insertAtTheEnd(ListNode head, int value) {
+        //insert at the end of the linked list
+        //0 1 2 3 4   insert 5
+        //        c
+        ListNode cur = head;
+        ListNode pre = null;
+        while (cur != null && cur.value <= value) {
+            //pre has to be placed before cur since it needs to record the current cur before it points to the next cur node
+            pre = cur;
+            cur = cur.next;
+        }
+        System.out.println("pre: " + pre.value);
+        ListNode newNode = new ListNode(value);
+        ListNode nxt = pre.next;
+        pre.next = newNode;
         newNode.next = nxt;
         return head;
     }
@@ -75,8 +113,8 @@ public class InsertInSortedLinkedList {
         ListNode result1 = i.insert(one, value2);
         i.print(result1);
 
-//        System.out.println("Insert 5: ");
-//        ListNode result2 = i.insert(one, value5);
-//        i.print(result2);
+        System.out.println("Insert 5: ");
+        ListNode result2 = i.insert(one, value5);
+        i.print(result2);
     }
 }
