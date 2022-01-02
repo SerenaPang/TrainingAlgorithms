@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="linkedlist">
-      <change afterPath="$PROJECT_DIR$/src/problems/linkedlist/MergeSortLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/linkedlist/InsertInSortedLinkedList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/linkedlist/InsertInSortedLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/CheckIfLinkedListHasACycle" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/CheckIfLinkedListHasACycle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/CheckIfLinkedListHasACycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/CheckIfLinkedListHasACycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/MiddleNodeOfLinkedList" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/MiddleNodeOfLinkedList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/MiddleNodeOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/MiddleNodeOfLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListIteratively" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ReverseLinkedListIteratively" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListIteratively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ReverseLinkedListIteratively.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ReverseLinkedListRecursively" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedListRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ReverseLinkedListRecursively.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/linkedlist/MergeSortLinkedList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +81,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckIfLinkedListHasACycle">
+  <component name="RunManager" selected="Application.InsertInSortedLinkedList">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -115,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleNodeOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.MiddleNodeOfLinkedList" />
+    <configuration name="InsertInSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.InsertInSortedLinkedList" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -128,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RainbowSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.recursion.sorting.RainbowSort" />
+    <configuration name="MiddleNodeOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.MiddleNodeOfLinkedList" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.recursion.sorting.*" />
+          <option name="PATTERN" value="problems.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertInSortedLinkedList" />
         <item itemvalue="Application.CheckIfLinkedListHasACycle" />
         <item itemvalue="Application.MiddleNodeOfLinkedList" />
         <item itemvalue="Application.ReverseLinkedListRecursively" />
         <item itemvalue="Application.ReverseLinkedListIteratively" />
-        <item itemvalue="Application.RainbowSort" />
       </list>
     </recent_temporary>
   </component>
@@ -210,13 +203,7 @@
       <workItem from="1640021653358" duration="25288000" />
       <workItem from="1640149081144" duration="30000" />
       <workItem from="1640206678560" duration="25411000" />
-    </task>
-    <task id="LOCAL-00043" summary="Nov 24th cross training 3">
-      <created>1637781581115</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1637781581115</updated>
+      <workItem from="1641147007462" duration="4144000" />
     </task>
     <task id="LOCAL-00044" summary="Nov 24th cross training 3">
       <created>1637781899056</created>
@@ -554,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640908013573</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="linkedlist">
+      <created>1640908400871</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1640908400871</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
