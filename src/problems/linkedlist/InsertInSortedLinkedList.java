@@ -25,9 +25,10 @@ public class InsertInSortedLinkedList {
         //insert in the middle of the linked list, include the case of appending at the end of the linked list
         //0 1  3 4  insert 2
         //     c
+        //cur should stop at where it's greater than insert value, since we already store previous node
         //0 1 2 3 4 insert 5
         //        c
-        //cur should stop at the nxt is null
+        //cur should stop at the nxt is null, and cur is still smaller than the insert value
         ListNode pre = null;
         while (cur != null && cur.value <= value) {
             pre = cur;
