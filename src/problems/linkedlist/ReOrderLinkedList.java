@@ -126,6 +126,27 @@ public class ReOrderLinkedList {
         }
         return dummy.next;
     }
+    /**
+     * merge method
+     * 1 2 3
+     * o
+     * 4 5 6
+     * t
+     * 0 1 2
+     * c n nn
+     * */
+    public ListNode mergeII(ListNode one, ListNode two) {
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+        while (one != null && two != null) {
+            cur.next = one;
+            one = one.next;
+            cur.next.next = two;
+            two = two.next;
+            cur = cur.next.next;
+        }
+        return dummy.next;
+    }
 
     /**
      * print the linked list
@@ -163,6 +184,15 @@ public class ReOrderLinkedList {
         System.out.println("reverse linked list recursively: ");
         r.print(r.reverseRecursively(one));
 
+ */
+        ReOrderLinkedList r = new ReOrderLinkedList();
+        r.print(one);
+        ListNode result = r.reorder(one);
+        System.out.println("Reordering linked list: ");
+        r.print(result);
+
+        //test merge
+        System.out.println("testing merge");
         ListNode oneb = new ListNode(1);
         ListNode twob = new ListNode(2);
         ListNode threeb = new ListNode(3);
@@ -180,12 +210,7 @@ public class ReOrderLinkedList {
 
         r.print(oneb);
         r.print(fourb);
-        r.print(r.merge(oneb, fourb));
- */
-        ReOrderLinkedList r = new ReOrderLinkedList();
-        r.print(one);
-        ListNode result = r.reorder(one);
-        System.out.println("Reordering linked list: ");
-        r.print(result);
+        //r.print(r.merge(oneb, fourb));
+        r.print(r.mergeII(oneb, fourb));
     }
 }
