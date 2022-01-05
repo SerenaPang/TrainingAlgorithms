@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="linkedlist">
-      <change afterPath="$PROJECT_DIR$/src/problems/linkedlist/PartitionLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/linkedlist/MergeSortLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/linkedlist/ReOrderLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/ReOrderLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <recent name="problems.warm.up.exercises.recursionIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PartitionLinkedList">
+  <component name="RunManager" selected="Application.MergeSortLinkedList">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -94,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckIfLinkedListHasACycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.CheckIfLinkedListHasACycle" />
+    <configuration name="InsertInSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.InsertInSortedLinkedList" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertInSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.InsertInSortedLinkedList" />
+    <configuration name="MergeSortLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.linkedlist.MergeSortLinkedList" />
       <module name="TrainingAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortLinkedList" />
         <item itemvalue="Application.PartitionLinkedList" />
         <item itemvalue="Application.ReOrderLinkedList" />
         <item itemvalue="Application.MergeTwoSortedLinkedLists" />
         <item itemvalue="Application.InsertInSortedLinkedList" />
-        <item itemvalue="Application.CheckIfLinkedListHasACycle" />
       </list>
     </recent_temporary>
   </component>
@@ -203,14 +202,8 @@
       <workItem from="1640149081144" duration="30000" />
       <workItem from="1640206678560" duration="25411000" />
       <workItem from="1641147007462" duration="7236000" />
-      <workItem from="1641232465191" duration="20030000" />
-    </task>
-    <task id="LOCAL-00048" summary="Nov 25th cross training 3">
-      <created>1637867124131</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1637867124131</updated>
+      <workItem from="1641232465191" duration="20486000" />
+      <workItem from="1641404662604" duration="6639000" />
     </task>
     <task id="LOCAL-00049" summary="Nov 25th cross training 3">
       <created>1637869736315</created>
@@ -548,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641326746681</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="linkedlist">
+      <created>1641361398660</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1641361398660</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
