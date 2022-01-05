@@ -3,8 +3,8 @@ package problems.linkedlist;
 public class MergeSortLinkedList {
     /**
      *  2 -> 4 -> 3 -> 5 -> 1 -> null
-     * TC:  find mid-point: O(n) compare and merge: O(n)
-     * SC: O()
+     * TC: O(nlogn) find mid-point: O(logn) compare and merge: O(n)
+     * SC: O(logn)
      * mergesort algorithm:
      * 1. split the linked list until it can't be split any more
      *      2 4 3 5 1
@@ -29,16 +29,36 @@ public class MergeSortLinkedList {
         ListNode secondHalf = mid.next;
         //unlink second half
         mid.next = null;
-        //call function itself so that we split the linkedlist recursively
+        //call function itself so that we split the linked list recursively
         ListNode left = mergeSort(head);
         ListNode right = mergeSort(secondHalf);
-        //return the sorted linkedlist by ordered merged
+        //return the sorted linked list by ordered merged
         return merge(left, right);
     }
-
+    //merge two linked list
     public ListNode merge(ListNode one, ListNode two) {
         ListNode dummy = new ListNode(0);
+        ListNode curOne = one;
+        ListNode curTwo = two;
+        ListNode cur = dummy;
+        while (curOne != null && curTwo != null) {
+            if (curOne.value <= curTwo.value) {
+                cur.next = curOne;
+                curOne = curOne.next;
+            } else {
+                cur.next = curTwo;
+                curTwo = curTwo.next;
+            }
+            cur = cur.next;
+        }
+        //post processing
+        if (curOne != null) {
+            cur.next = curOne;
+        }
 
+        if (curTwo != null) {
+            cur.next = curTwo;
+        }
         return dummy.next;
     }
 
@@ -87,6 +107,8 @@ public class MergeSortLinkedList {
         five.next = one;
 
         MergeSortLinkedList m = new MergeSortLinkedList();
-        m.mergeSort(two);
+        m.print(two);
+        ListNode result = m.mergeSort(two);
+        m.print(result);
     }
 }

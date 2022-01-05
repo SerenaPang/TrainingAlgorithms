@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b760299-98b1-40ba-bc7f-51455188488e" name="Default Changelist" comment="linkedlist">
-      <change afterPath="$PROJECT_DIR$/src/problems/linkedlist/MergeSortLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/linkedlist/MergeSortLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/linkedlist/MergeSortLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,14 +203,7 @@
       <workItem from="1640206678560" duration="25411000" />
       <workItem from="1641147007462" duration="7236000" />
       <workItem from="1641232465191" duration="20486000" />
-      <workItem from="1641404662604" duration="6639000" />
-    </task>
-    <task id="LOCAL-00049" summary="Nov 25th cross training 3">
-      <created>1637869736315</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1637869736315</updated>
+      <workItem from="1641404662604" duration="7720000" />
     </task>
     <task id="LOCAL-00050" summary="Happy Thanksgiving! Changed package name">
       <created>1637870326619</created>
@@ -548,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641361398660</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="linkedlist">
+      <created>1641411742137</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1641411742137</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
