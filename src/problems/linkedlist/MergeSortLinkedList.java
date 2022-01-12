@@ -81,7 +81,6 @@ public class MergeSortLinkedList {
         return slow;
     }
 
-
     /**
      * print the linked list
      * */
